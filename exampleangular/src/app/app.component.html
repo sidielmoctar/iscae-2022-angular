@@ -1,3 +1,19 @@
-<app-show-success [msg]="msg"></app-show-success>
-<app-show-error [msg]="'email incorrecte'"></app-show-error>
+<div style="padding: 50px;">
+  <mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Small</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+    <mat-card-content>
+      {{longText}}
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<!--<h1 highlight>Example utilisation directive</h1>-->
+<!--<div>le nombre de population de la mauritanie est-->
+<!--{{nombrePopulation | montantFormatter : true}}</div>-->
+<!--<app-show-success [msg]="msg.message" *ngIf="msg && msg.type == 'success'"></app-show-success>-->
+<!--<app-show-error [msg]="msg.message" *ngIf="msg && msg.type == 'error'"></app-show-error>-->
 <!--<div class="alert-success alert">{{helloMsg}}</div>-->
