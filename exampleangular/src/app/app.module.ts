@@ -13,10 +13,12 @@ import {CommonElementsModule} from "./common-elements/common-elements.module";
 import {MaterialModule} from "./material/material.module";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatTabsModule} from "@angular/material/tabs";
+import { NgbdModalContentComponent } from './ngbd-modal-content/ngbd-modal-content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgbdModalContentComponent,
   ],
   imports: [
     BrowserModule,
