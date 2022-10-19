@@ -12,6 +12,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {CommonElementsModule} from "./common-elements/common-elements.module";
 import {MaterialModule} from "./material/material.module";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     HttpClientModule,
     CommonElementsModule,
     MaterialModule,
+    MatTabsModule,
     ReactiveFormsModule,
     FormsModule
   ],
