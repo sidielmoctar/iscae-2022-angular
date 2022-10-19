@@ -11,6 +11,7 @@ import {CommonModule} from "@angular/common";
 import {HttpClientModule} from "@angular/common/http";
 import {CommonElementsModule} from "./common-elements/common-elements.module";
 import {MaterialModule} from "./material/material.module";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import {MaterialModule} from "./material/material.module";
     BrowserAnimationsModule,
     HttpClientModule,
     CommonElementsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
